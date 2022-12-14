@@ -11,3 +11,5 @@ From where can I access the ui:
 | VPN Client | VPN DMZ | 10.0.8.2       | n            | timeout    |
 
 ## Solution
+
+In the tab **Network** -> **TCP/IP stacks** -> **Default TCP/IP stack** press **Edit settings**. There I had to set the IPv4 gateway, to my management network gateway. In my case: ``192.168.30.1``. When saved, I could then access the web ui trough my openvpn clients.
