@@ -8,4 +8,5 @@ This guide is targeted at a Proxmox system with a Debian VM. The boot disk of th
 4. `e2fsck -f /dev/mapper/<filesystem>`
 5. `resize2fs /dev/mapper/<filesystem> <size>`
 6. `lvreduce -L <size> /dev/mapper/<filesystem>`
-7. RESIZING DRIVE IN PROXMOX IN THE WORKS
+7. Now you can resize the partiton using the gparted GUI to its minimum and apply the changes
+8. RESIZING DRIVE IN PROXMOX IN THE WORKS
