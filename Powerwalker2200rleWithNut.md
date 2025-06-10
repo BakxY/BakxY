@@ -148,12 +148,12 @@ sudo udevadm trigger
 Enable and start the NUT services:
 
 ```bash
-sudo systemctl enable nut-server.service
 sudo systemctl enable nut-monitor.service
 sudo systemctl enable nut-client.service
-sudo systemctl start nut-server.service
+sudo systemctl enable nut-server.service
 sudo systemctl start nut-monitor.service
 sudo systemctl start nut-client.service
+sudo systemctl start nut-server.service
 sudo upsdrvctl stop
 sudo upsdrvctl start
 ```
